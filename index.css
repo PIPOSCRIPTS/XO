@@ -1,0 +1,28 @@
+.game{
+	width: 255px;
+	text-align: center;
+	font-family: system;
+	color: white;
+	font-weight: 500px;
+	margin-left: calc((100% - 255px)/2);
+}
+.header{
+	background: #f25;
+	padding: 5px 0px;
+	margin: 5px 0px;
+}
+span{
+	color: #fa0;
+}
+.box{
+	width: 81px;
+	height: 83px;
+	background: #f25;
+	float: left;
+	margin: 2px;
+	font-size: 60px;
+}
+.box:hover{
+	background: black;
+	cursor: pointer;
+}
